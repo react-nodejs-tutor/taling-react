@@ -15,4 +15,10 @@
 * [component \(1\)](20200623/component-1.md)
 * [setState](20200623/setstate.md)
 * [Immer](20200623/immer.md)
+* [promise, async-await](20200623/promise-async-await.md)
+* [axios](axios.md)
+* [component \(2\)](20200623/component-2.md)
+* [react router](react-router.md)
+* [component\(2\) refactor](20200623/component2-refactor.md)
+* [redux](20200623/redux.md)
 
