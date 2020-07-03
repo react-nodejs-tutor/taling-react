@@ -1,0 +1,875 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>react router · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="20200623/component2-refactor.html" />
+    
+    
+    <link rel="prev" href="20200623/component-2.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Intro</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">학습자료</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="20200623/jsx.html">
+            
+                <a href="20200623/jsx.html">
+            
+                    
+                    JSX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="20200623/props-and-state.html">
+            
+                <a href="20200623/props-and-state.html">
+            
+                    
+                    props & state
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="20200623/lifecycle-api.html">
+            
+                <a href="20200623/lifecycle-api.html">
+            
+                    
+                    lifecycle API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="20200623/js-array-methods.html">
+            
+                <a href="20200623/js-array-methods.html">
+            
+                    
+                    js array methods
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="20200623/wrap-ups.html">
+            
+                <a href="20200623/wrap-ups.html">
+            
+                    
+                    wrap ups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="20200623/wrap-ups-cont.html">
+            
+                <a href="20200623/wrap-ups-cont.html">
+            
+                    
+                    wrap ups (cont)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="20200623/component-1.html">
+            
+                <a href="20200623/component-1.html">
+            
+                    
+                    component (1)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="20200623/setstate.html">
+            
+                <a href="20200623/setstate.html">
+            
+                    
+                    setState
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="20200623/immer.html">
+            
+                <a href="20200623/immer.html">
+            
+                    
+                    Immer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="20200623/promise-async-await.html">
+            
+                <a href="20200623/promise-async-await.html">
+            
+                    
+                    promise, async-await
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="axios.html">
+            
+                <a href="axios.html">
+            
+                    
+                    axios
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12" data-path="20200623/component-2.html">
+            
+                <a href="20200623/component-2.html">
+            
+                    
+                    component (2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.13" data-path="react-router.html">
+            
+                <a href="react-router.html">
+            
+                    
+                    react router
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.14" data-path="20200623/component2-refactor.html">
+            
+                <a href="20200623/component2-refactor.html">
+            
+                    
+                    component(2) refactor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.15" data-path="20200623/redux.html">
+            
+                <a href="20200623/redux.html">
+            
+                    
+                    redux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >react router</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#xC6B0;&#xB9AC;&#xAC00; &apos;&#xC2F1;&#xAE00;&#xD398;&#xC774;&#xC9C0; &#xC5B4;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&apos;&#xC774;&#xB77C;&#xACE0; &#xBD80;&#xB974;&#xB294; &#xC774;&#xC720;&#xB294; &#xC5B4;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC758; &#xD398;&#xC774;&#xC9C0;&#xAC00; &#xD558;&#xB098;&#xC774;&#xAE30; &#xB54C;&#xBB38;&#xC774; &#xC544;&#xB2C8;&#xB77C; &#xC720;&#xC800;&#xAC00; &#xCC98;&#xC74C; &#xC811;&#xC18D;&#xD588;&#xC744;&#xB54C; &#xAD6C;&#xCCB4;&#xC801;&#xC778; data&#xB97C; &#xC81C;&#xC678;&#xD55C; &#xC815;&#xC801;&#xD30C;&#xC77C;&#xC744; &#xBAA8;&#xB450; &#xBD88;&#xB7EC;&#xC624;&#xAE30; &#xB54C;&#xBB38;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<p>&#xC774;&#xC81C; &#xB9AC;&#xC561;&#xD2B8; &#xB77C;&#xC6B0;&#xD130;&#xB85C; &#xD398;&#xC774;&#xC9C0;&#xB97C; &#xC5EC;&#xB7EC;&#xAC1C;&#xB85C; &#xB098;&#xB204;&#xC5B4; &#xC720;&#xC800;&#xAC00; &#xC811;&#xC18D;&#xD558;&#xB294; url&#xB9C8;&#xB2E4; &#xB2E4;&#xB978; data&#xB97C; &#xBCF4;&#xC5EC;&#xC904; &#xC218; &#xC788;&#xAC8C; &#xD574;&#xBCFC;&#xAC8C;&#xC694;.</p>
+<p>&#xBA3C;&#xC800; &#xB9AC;&#xC561;&#xD2B8; &#xB77C;&#xC6B0;&#xD130;&#xB97C; &#xC124;&#xCE58;&#xD574;&#xC8FC;&#xC138;&#xC694;. (&#xD504;&#xB85C;&#xC81D;&#xD2B8;&#xB97C; &#xC0C8;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC8FC;&#xC138;&#xC694;)</p>
+<pre><code class="lang-js">yarn add react-router
+</code></pre>
+<p>&#xC124;&#xCE58;&#xD55C; &#xB77C;&#xC6B0;&#xD130;&#xB97C; &#xC801;&#xC6A9;&#xD558;&#xAE30; &#xC704;&#xD574;&#xC11C; index.js&#xC5D0;&#xC11C; BrowserRouter&#xB97C; &#xC774;&#xC6A9;&#xD574; App&#xC744; &#xAC10;&#xC2F8;&#xC90D;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-dom&apos;</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">&apos;./index.css&apos;</span>;
+<span class="hljs-keyword">import</span> App <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./App&apos;</span>;
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> serviceWorker <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./serviceWorker&apos;</span>;
+<span class="hljs-keyword">import</span> { BrowserRouter } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+
+ReactDOM.render(
+    &lt;React.StrictMode&gt;
+        &lt;BrowserRouter&gt;
+            &lt;App /&gt;
+        &lt;/BrowserRouter&gt;
+    &lt;/React.StrictMode&gt;,
+    document.getElementById(&apos;root&apos;)
+);
+
+serviceWorker.unregister();
+</code></pre>
+<p>&#xC774;&#xC81C;&#xB294; &#xAC01; &#xB77C;&#xC6B0;&#xD130;&#xC5D0; &#xAD6C;&#xD604;&#xD560; &#xD398;&#xC774;&#xC9C0;&#xB97C; &#xAD6C;&#xD604;&#xD574;&#xBCFC;&#xAC8C;&#xC694;.</p>
+<p>Main&#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xC640; Sub&#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xB9CC;&#xB4E4;&#xACE0; &#xAC01;&#xAC01; &#xB2E4;&#xB978; url&#xC5D0; &#xC5F0;&#xACB0;&#xD574;&#xC90D;&#xC2DC;&#xB2E4;.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// src/Main.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>&#xBA54;&#xC778;&#xD654;&#xBA74; &#xC785;&#xB2C8;&#xB2E4;.<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        );
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> Main;
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-comment">// src/Sub.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Sub</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>&#xC11C;&#xBE0C;&#xD654;&#xBA74;&#xC785;&#xB2C8;&#xB2E4;.<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        );
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> Sub;
+</code></pre>
+<p><strong>&#xBCF8;&#xACA9;&#xC801;&#xC73C;&#xB85C; &#xB77C;&#xC6B0;&#xD2B8;&#xB97C; &#xC0AC;&#xC6A9;&#xD574;&#xBCFC;&#xD150;&#xB370;&#xC694;, &#xC0AC;&#xC6A9;&#xC790;&#xAC00; &#xC694;&#xCCAD;&#xD558;&#xB294; &#xC8FC;&#xC18C;&#xC5D0; &#xB530;&#xB77C; &#xB2E4;&#xB978; &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xBCF4;&#xC5EC;&#xC8FC;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;.</strong></p>
+<p>&#xC774; &#xC791;&#xC5C5;&#xC744; &#xD560;&#xB54C;&#xB294; Route&#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xACE0; &#xC54C;&#xB9DE;&#xC740; props&#xB97C; &#xB123;&#xC5B4;&#xC90D;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-js">&lt;Route path=<span class="hljs-string">&quot;&#xC8FC;&#xC18C;&quot;</span> component={&#xBCF4;&#xC5EC;&#xC8FC;&#xACE0;&#xC2F6;&#xC740; &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;}&gt;
+</code></pre>
+<p>&#xAE30;&#xC874; App.js&#xC5D0; &#xC788;&#xC5C8;&#xB358; &#xCF54;&#xB4DC;&#xB97C; &#xC9C0;&#xC6CC;&#xC8FC;&#xACE0; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xC791;&#xC131;&#xD574;&#xC904;&#xAC8C;&#xC694;.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// src/App.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Route } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+<span class="hljs-keyword">import</span> Main <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Main&apos;</span>;
+<span class="hljs-keyword">import</span> Sub <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Sub&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div&gt;
+                &lt;Route path=&quot;/&quot; component={Main} /&gt;
+                &lt;Route path=&quot;/sub&quot; component={Sub} /&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default App;
+</code></pre>
+<p>&#xC5EC;&#xAE30;&#xC11C; /sub&#xC73C;&#xB85C; &#xB4E4;&#xC5B4;&#xAC00;&#xBA74; &#xBA54;&#xC778; &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8; &#xB0B4;&#xC6A9;&#xB3C4; &#xBCF4;&#xC774;&#xB294; &#xAC83;&#xC744; &#xD655;&#xC778;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<p>&#xC774;&#xB294; /sub&#xACBD;&#xB85C;&#xAC00; /&#xACBD;&#xB85C;&#xC640; &#xC911;&#xBCF5;&#xB418;&#xAE30; &#xB54C;&#xBB38;&#xC785;&#xB2C8;&#xB2E4;. &#xB530;&#xB77C;&#xC11C; exact&#xB77C;&#xB294; props&#xB97C; &#xB123;&#xC5B4;&#xC90D;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// src/App.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Route } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+<span class="hljs-keyword">import</span> Main <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Main&apos;</span>;
+<span class="hljs-keyword">import</span> Sub <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Sub&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div&gt;
+                &lt;Route exact path=&quot;/&quot; component={Main} /&gt;
+                &lt;Route path=&quot;/sub&quot; component={Sub} /&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default App;
+</code></pre>
+<p>&#xC774;&#xB807;&#xAC8C; &#xD558;&#xBA74; &#xACBD;&#xB85C;&#xAC00; &#xC644;&#xBCBD;&#xD788; &#xB611;&#xAC19;&#xC744;&#xB54C;&#xB9CC; &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xBCF4;&#xC5EC;&#xC8FC;&#xAC8C; &#xB429;&#xB2C8;&#xB2E4;.</p>
+<p><strong>&#xC774;&#xBC88;&#xC5D0;&#xB294; &#xB9C1;&#xD06C;&#xB97C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC11C; &#xD074;&#xB9AD;&#xD558;&#xBA74; &#xB2E4;&#xB978; &#xC8FC;&#xC18C;&#xB85C; &#xC774;&#xB3D9;&#xD560; &#xC218; &#xC788;&#xAC8C; &#xD574;&#xC904;&#xAC8C;&#xC694;.</strong></p>
+<p>&#xC774;&#xB54C;&#xB294; Link&#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xC0AC;&#xC6A9;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<p>Link&#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB294; &#xD074;&#xB9AD;&#xC2DC; &#xB2E4;&#xB978; &#xC8FC;&#xC18C;&#xB85C; &#xC774;&#xB3D9;&#xC2DC;&#xD0A4;&#xB294; &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<p>&#xB9AC;&#xC561;&#xD2B8; &#xB77C;&#xC6B0;&#xD130;&#xC0AC;&#xC6A9;&#xC2DC; &#xC77C;&#xBC18; a&#xD0DC;&#xADF8;&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xC2DC;&#xBA74; e.preventDefault()&#xB97C; &#xD574;&#xC8FC;&#xC5B4;&#xC57C;&#xD558;&#xACE0; &#xC790;&#xBC14;&#xC2A4;&#xD06C;&#xB9BD;&#xD2B8;&#xB85C; &#xC8FC;&#xC18C;&#xB97C; &#xBCC0;&#xD658;&#xD574;&#xC8FC;&#xC5B4;&#xC57C;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<p>&#xADF8;&#xB807;&#xC9C0;&#xC54A;&#xC73C;&#xBA74; &#xC0C8;&#xB85C;&#xACE0;&#xCE68;&#xC744; &#xD558;&#xAC8C;&#xB418;&#xACE0; &#xADF8;&#xB7EC;&#xBA74; &#xC0C1;&#xD0DC;&#xCD08;&#xAE30;&#xD654;, &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8; &#xC5B8;&#xB9C8;&#xC6B4;&#xD2B8; &#xD6C4; &#xB9AC;&#xB80C;&#xB354;&#xB9C1;&#xC744; &#xD558;&#xAC8C;&#xB429;&#xB2C8;&#xB2E4;.</p>
+<p>&#xB530;&#xB77C;&#xC11C; Link&#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xBA70;, &#xC774;&#xB294; HTML5 History API&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xBE0C;&#xB77C;&#xC6B0;&#xC800;&#xC758; &#xC8FC;&#xC18C;&#xB9CC; &#xBC14;&#xAFC0;&#xBFD0; &#xD398;&#xC774;&#xC9C0;&#xB97C; &#xC0C8;&#xB85C; &#xBD88;&#xB7EC;&#xC624;&#xC9C0;&#xB294; &#xC54A;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// src/App.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Route, Link } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+<span class="hljs-keyword">import</span> Main <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Main&apos;</span>;
+<span class="hljs-keyword">import</span> Sub <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Sub&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;
+                        &lt;Link to=&quot;/&quot;&gt;
+                            &#xBA54;&#xC778;&#xD654;&#xBA74;&#xC73C;&#xB85C; &#xAC00;&#xAE30;
+                        &lt;/Link&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;Link to=&quot;/sub&quot;&gt;
+                            &#xC11C;&#xBE0C;&#xD654;&#xBA74;&#xC73C;&#xB85C; &#xAC00;&#xAE30;
+                        &lt;/Link&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;Route exact path=&quot;/&quot; component={Main} /&gt;
+                &lt;Route path=&quot;/sub&quot; component={Sub} /&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default App;
+</code></pre>
+<p><strong>&#xC774;&#xBC88;&#xC5D4; &#xD30C;&#xB77C;&#xBBF8;&#xD130;, &#xADF8;&#xB9AC;&#xACE0; &#xCFFC;&#xB9AC;&#xB97C; &#xBC1B;&#xC744; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xD574;&#xBCFC;&#xAC8C;&#xC694;.</strong></p>
+<p>&#xD30C;&#xB77C;&#xBBF8;&#xD130;, &#xCFFC;&#xB9AC;&#xB97C; &#xC5B8;&#xC81C; &#xC0AC;&#xC6A9;&#xD574;&#xC57C;&#xD558;&#xB290;&#xB0D0;&#xC5D0; &#xB300;&#xD55C; &#xC815;&#xD574;&#xC9C4; &#xADDC;&#xCE59;&#xC740; &#xC5C6;&#xC9C0;&#xB9CC; &#xD1B5;&#xC0C1;&#xC801;&#xC73C;&#xB85C; &#xD30C;&#xB77C;&#xBBF8;&#xD130;&#xB294; &#xD2B9;&#xC815; id&#xB098; &#xC774;&#xB984;&#xC744; &#xAC00;&#xC9C0;&#xACE0; &#xC870;&#xD68C;&#xB97C; &#xD560; &#xB54C;,</p>
+<p>&#xCFFC;&#xB9AC;&#xB294; &#xC5B4;&#xB5A4; &#xD0A4;&#xC6CC;&#xB4DC;&#xB97C; &#xAC80;&#xC0C9;&#xD558;&#xAC70;&#xB098; &#xC694;&#xCCAD;&#xC5D0; &#xD544;&#xC694;&#xD55C; &#xC635;&#xC158;&#xC744; &#xC804;&#xB2EC;&#xD560; &#xB54C; &#xC0AC;&#xC6A9;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// src/User.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+
+<span class="hljs-keyword">const</span> userData = {
+    user1: {
+        name: <span class="hljs-string">&apos;user1&apos;</span>,
+        job: <span class="hljs-string">&apos;frontend developer&apos;</span>,
+    },
+    user2: {
+        name: <span class="hljs-string">&apos;user2&apos;</span>,
+        job: <span class="hljs-string">&apos;backend developer&apos;</span>,
+    },
+    user3: {
+        name: <span class="hljs-string">&apos;user3&apos;</span>,
+        job: <span class="hljs-string">&apos;PM&apos;</span>,
+    },
+};
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">User</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-comment">// &#xD30C;&#xB77C;&#xBBF8;&#xD130;&#xB97C; &#xBC1B;&#xC544;&#xC62C;&#xB54C;&#xB294; match props&#xB97C; &#xC0AC;&#xC6A9;</span>
+        <span class="hljs-keyword">const</span> { username } = <span class="hljs-keyword">this</span>.props.match.params;
+        <span class="hljs-keyword">const</span> user = userData[username];
+        <span class="hljs-keyword">if</span> (!user) <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>&#xC5C6;&#xB294; &#xC0AC;&#xC6A9;&#xC790;&#xC785;&#xB2C8;&#xB2E4;.<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>;
+
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>
+                    {user.name}&#xC758; &#xC9C1;&#xC5C5;&#xC740; {user.job}&#xC785;&#xB2C8;&#xB2E4;.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        );
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> User;
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-comment">// src/App.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Route, Link } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+<span class="hljs-keyword">import</span> Main <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Main&apos;</span>;
+<span class="hljs-keyword">import</span> Sub <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Sub&apos;</span>;
+<span class="hljs-keyword">import</span> User <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./User&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;
+                        &lt;Link to=&quot;/&quot;&gt;
+                            &#xBA54;&#xC778;&#xD654;&#xBA74;&#xC73C;&#xB85C; &#xAC00;&#xAE30;
+                        &lt;/Link&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;Link to=&quot;/sub&quot;&gt;
+                            &#xC11C;&#xBE0C;&#xD654;&#xBA74;&#xC73C;&#xB85C; &#xAC00;&#xAE30;
+                        &lt;/Link&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;Route exact path=&quot;/&quot; component={Main} /&gt;
+                &lt;Route path=&quot;/sub&quot; component={Sub} /&gt;
+                &lt;Route path=&quot;/users/:username&quot; component={User} /&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default App;
+</code></pre>
+<p>localhost:3000/user/username1</p>
+<p>localhost:3000/user/username2</p>
+<p>localhost:3000/user/username3</p>
+<p>&#xAC01;&#xAC01; &#xC811;&#xC18D;&#xC744; &#xD574;&#xBCF4;&#xC138;&#xC694;. &#xC798; &#xAD6C;&#xD604;&#xC774; &#xB418;&#xC5B4;&#xC788;&#xB098;&#xC694;?</p>
+<p>&#xCFFC;&#xB9AC;&#xB3C4; &#xD574;&#xBD05;&#xC2DC;&#xB2E4;.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// src/Sub.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> qs <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;qs&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Sub</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">const</span> {information} = qs.parse(<span class="hljs-keyword">this</span>.props.location.search.substr(<span class="hljs-number">1</span>));
+        <span class="hljs-keyword">const</span> isInfoTrue = information === <span class="hljs-string">&apos;true&apos;</span>;
+
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>&#xC11C;&#xBE0C;&#xD654;&#xBA74;&#xC785;&#xB2C8;&#xB2E4;.<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+                {isInfoTrue &amp;&amp; <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>more information...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>}
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        );
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> Sub;
+</code></pre>
+<p>&#xC544;&#xB798;&#xCC98;&#xB7FC; &#xD560; &#xC218;&#xB3C4; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// src/Sub.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Sub</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-comment">// search =&gt; ?information=true</span>
+        <span class="hljs-keyword">const</span> search = <span class="hljs-keyword">this</span>.props.location.search;
+        <span class="hljs-keyword">const</span> params = <span class="hljs-keyword">new</span> URLSearchParams(search);
+        <span class="hljs-keyword">const</span> info = params.get(<span class="hljs-string">&apos;information&apos;</span>) === <span class="hljs-string">&apos;true&apos;</span> ? <span class="hljs-literal">true</span> : <span class="hljs-literal">false</span>;
+
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>&#xC11C;&#xBE0C;&#xD654;&#xBA74;&#xC785;&#xB2C8;&#xB2E4;.<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+                {info &amp;&amp; <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>more information...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>}
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        );
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> Sub;
+</code></pre>
+<p>&#xC774;&#xB807;&#xAC8C; &#xD558;&#xACE0; localhost:3000/sub?information=true&#xB85C; &#xC811;&#xC18D;&#xD574;&#xBCFC;&#xAE4C;&#xC694;? &#xADF8;&#xB7EC;&#xBA74; &#xC138;&#xBD80;&#xC801;&#xC778; &#xC815;&#xBCF4;&#xAC00; &#xB098;&#xC624;&#xACA0;&#xC8E0;?</p>
+<p><strong>&#xC774;&#xBC88;&#xC5D4; &#xC11C;&#xBE0C;&#xB77C;&#xC6B0;&#xD2B8;&#xC785;&#xB2C8;&#xB2E4;.</strong></p>
+<p>App.js&#xB97C; &#xBCF4;&#xBA74; &#xB77C;&#xC6B0;&#xD2B8;&#xAC00; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xC120;&#xC5B8;&#xC774; &#xB418;&#xC5B4; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-js">&lt;Route path=<span class="hljs-string">&quot;/&quot;</span> exact component={Main} /&gt;
+&lt;Route path=&quot;/sub&quot; component={Sub} /&gt;
+&lt;Route path=&quot;/users/:username&quot; component={User} /&gt;
+</code></pre>
+<p>&apos;/&apos;, &apos;/sub&apos;&#xCC98;&#xB7FC; &#xC77C;&#xAD00;&#xB41C; &#xC8FC;&#xC18C;&#xB97C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC8FC;&#xACE0; &#xC2F6;&#xC740;&#xB370; users&#xB9CC; &#xD30C;&#xB77C;&#xBBF8;&#xD130;&#xAC00; &#xB4E4;&#xC5B4;&#xAC00;&#xC11C; &#xC880; &#xC560;&#xB9E4;&#xD558;&#xC8E0;?</p>
+<p><strong>&#xC774;&#xB7F0; &#xACBD;&#xC6B0;&#xC5D0;&#xB294; &#xC11C;&#xBE0C;&#xB77C;&#xC6B0;&#xD2B8;&#xB85C; &#xAD6C;&#xD604;&#xD558;&#xBA74; &#xAE54;&#xB054;&#xD569;&#xB2C8;&#xB2E4;.</strong></p>
+<pre><code class="lang-js"><span class="hljs-comment">// src/Users.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Route, Link } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+<span class="hljs-keyword">import</span> User <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./User&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Users</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;
+                        &lt;Link to=&quot;/users/user1&quot;&gt;user1&lt;/Link&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;Link to=&quot;/users/user2&quot;&gt;user2&lt;/Link&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;Link to=&quot;/users/user3&quot;&gt;user3&lt;/Link&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;Route render={() =&gt; &lt;div&gt;&#xC720;&#xC800;&#xB97C; &#xC120;&#xD0DD;&#xD558;&#xC138;&#xC694;...&lt;/div&gt;} /&gt;
+                &lt;Route path=&quot;/users/:username&quot; component={User} /&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default Users;
+</code></pre>
+<p>&#xB2E8;&#xC21C;&#xD558;&#xAC8C; &#xC704;&#xC640; &#xAC19;&#xC774; Users&#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xB530;&#xB85C; &#xB9CC;&#xB4E4;&#xACE0; &#xADF8;&#xC548;&#xC5D0;&#xC11C; &#xB77C;&#xC6B0;&#xD2B8;&#xB97C; &#xB610; &#xC120;&#xC5B8;&#xD574;&#xC8FC;&#xB294; &#xBC29;&#xC2DD;&#xC73C;&#xB85C; &#xAD6C;&#xD604;&#xD558;&#xBA74; &#xB429;&#xB2C8;&#xB2E4;.</p>
+<p>&#xB2F9;&#xC5F0;&#xD788; App.js&#xC5D0;&#xC11C;&#xB294; Users &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xB77C;&#xC6B0;&#xD2B8;&#xB85C; &#xC5F0;&#xACB0;&#xD574;&#xC8FC;&#xC5B4;&#xC57C; &#xACA0;&#xC8E0;?</p>
+<pre><code class="lang-js"><span class="hljs-comment">// src/App.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Route, Link } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+<span class="hljs-keyword">import</span> Main <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Main&apos;</span>;
+<span class="hljs-keyword">import</span> Sub <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Sub&apos;</span>;
+<span class="hljs-keyword">import</span> Users <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Users&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;
+                        &lt;Link to=&quot;/&quot;&gt;
+                            &#xBA54;&#xC778;&#xD654;&#xBA74;&#xC73C;&#xB85C; &#xAC00;&#xAE30;
+                        &lt;/Link&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;Link to=&quot;/sub&quot;&gt;
+                            &#xC11C;&#xBE0C;&#xD654;&#xBA74;&#xC73C;&#xB85C; &#xAC00;&#xAE30;
+                        &lt;/Link&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;Route exact path=&quot;/&quot; component={Main} /&gt;
+                &lt;Route path=&quot;/sub&quot; component={Sub} /&gt;
+                &lt;Route path=&quot;/users&quot; component={Users} /&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default App;
+</code></pre>
+<hr>
+<p><strong>&#xC7A0;&#xAE50;!</strong></p>
+<p>&quot;&#xB77C;&#xC6B0;&#xD130;&#xB97C; &#xC0AC;&#xC6A9;&#xD560; &#xB54C; props&#xB294; &#xC5B4;&#xB5BB;&#xAC8C; &#xC804;&#xB2EC;&#xD558;&#xB098;&#xC694;?&quot;</p>
+<p>&#xC11C;&#xBE0C;&#xB77C;&#xC6B0;&#xD2B8;&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;&#xD588;&#xB358; &#xAC83;&#xACFC; &#xB9C8;&#xCC2C;&#xAC00;&#xC9C0;&#xB85C; <code>render</code> &#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xC2DC;&#xBA74; &#xB429;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-jsx">&lt;Route path=<span class="hljs-string">&quot;/somewhere&quot;</span> component={SomeComponent} something={<span class="hljs-literal">true</span>} /&gt;
+</code></pre>
+<p>&#xC704;&#xC640; &#xAC19;&#xC774;&#xD558;&#xBA74; &#xC774;&#xB7F0;&#xC2DD;&#xC73C;&#xB85C;&#xB294; props&#xC804;&#xB2EC;&#xC774; &#xB418;&#xC9C8; &#xC54A;&#xC8E0;? &#xD558;&#xC9C0;&#xB9CC; <code>render</code>&#xB294; jsx&#xB97C; &#xB80C;&#xB354;&#xD574;&#xC8FC;&#xBBC0;&#xB85C; &#xAC00;&#xB2A5;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-jsx">&lt;Route path=<span class="hljs-string">&quot;/somewhere&quot;</span> render={(props) =&gt; <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Somecomponent</span> {<span class="hljs-attr">...props</span>} <span class="hljs-attr">something</span>=<span class="hljs-string">{true}</span> /&gt;</span>}&gt;
+</span></code></pre>
+<p>...props&#xB294; Route&#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xAC00; &#xBC1B;&#xC740; props&#xB97C; Somecomponent&#xC5D0;&#xB3C4; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xB0B4;&#xB824;&#xC900;&#xB2E4;&#xB294; &#xC758;&#xBBF8;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<p>&#xAE54;&#xB054;&#xD558;&#xC8E0;?</p>
+<p>&#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC740; &#xBC29;&#xC2DD;&#xC740; &#xC633;&#xC9C0; &#xC54A;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-jsx">&lt;Route path=<span class="hljs-string">&quot;/somewhere&quot;</span> component={() =&gt; <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Somecomponent</span> <span class="hljs-attr">something</span>=<span class="hljs-string">{true}</span>/&gt;</span>} /&gt;
+</span></code></pre>
+<p>&#xBB3C;&#xB860; &#xAC00;&#xB2A5;&#xC740; &#xD558;&#xC9C0;&#xB9CC; &#xB9AC;&#xC561;&#xD2B8; &#xAC1C;&#xBC1C;&#xD300;&#xC5D0;&#xC11C;&#xB294; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xB9D0;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<p>&quot;When you use the component props, the router uses React.createElement to create a new React element from the given component. That means if you provide an inline function to the component attribute, you would create a new component every render. This results in the existing component unmounting and the new component mounting instead of just updating the existing component&quot;</p>
+<p>&#xC694;&#xC57D;&#xD558;&#xC790;&#xBA74; component&#xC548;&#xC5D0; &#xD568;&#xC218;&#xB97C; &#xB123;&#xC5B4;&#xC11C; &#xD638;&#xCD9C;&#xD558;&#xBA74; &#xB9E4;&#xC21C;&#xAC04; React.createElement&#xB97C; &#xD638;&#xCD9C;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; (jsx&#xB97C; &#xBC14;&#xBCA8;&#xC774; &#xD2B8;&#xB79C;&#xC2A4;&#xD30C;&#xC77C;&#xB9C1; &#xB9CC;&#xB4E4;&#xC5B4; &#xB0B4;&#xB294; &#xD568;&#xC218; &#xAE30;&#xC5B5;&#xB098;&#xC2DC;&#xC8E0;?) &#xACC4;&#xC18D;&#xD574;&#xC11C; &#xC0C8;&#xB85C;&#xC6B4; &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xAC00; &#xC5B8;&#xB9C8;&#xC6B4;&#xD2B8;, &#xB9C8;&#xC6B4;&#xD2B8;&#xB97C; &#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xB9E4;&#xC6B0; &#xBE44;&#xD6A8;&#xC728;&#xC801;&#xC774;&#xB77C;&#xB294; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;. &#xB530;&#xB77C;&#xC11C; &#xC704;&#xC5D0; &#xC4F4; &#xAC83;&#xCC98;&#xB7FC; render&#xB97C; &#xC0AC;&#xC6A9;&#xD574;&#xC11C; props&#xB97C; &#xB0B4;&#xB824;&#xC8FC;&#xB3C4;&#xB85D; &#xD569;&#xC2DC;&#xB2E4;!</p>
+<hr>
+<p><strong>&#xC774;&#xBC88;&#xC5D4; &#xC874;&#xC7AC;&#xD558;&#xC9C0; &#xC54A;&#xB294; &#xC8FC;&#xC18C;&#xB85C; &#xC774;&#xB3D9;&#xD588;&#xC744;&#xB54C; 404 &#xD398;&#xC774;&#xC9C0;&#xB97C; &#xB744;&#xC6CC;&#xC904;&#xAC8C;&#xC694;.</strong></p>
+<p>&#xC774;&#xB54C;&#xB294; Switch&#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xC774;&#xC6A9;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// src/App.js</span>
+
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Route, Link, Switch } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+<span class="hljs-keyword">import</span> Main <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Main&apos;</span>;
+<span class="hljs-keyword">import</span> Sub <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Sub&apos;</span>;
+<span class="hljs-keyword">import</span> Users <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Users&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;
+                        &lt;Link to=&quot;/&quot;&gt;
+                            &#xBA54;&#xC778;&#xD654;&#xBA74;&#xC73C;&#xB85C; &#xAC00;&#xAE30;
+                        &lt;/Link&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;Link to=&quot;/sub&quot;&gt;
+                            &#xC11C;&#xBE0C;&#xD654;&#xBA74;&#xC73C;&#xB85C; &#xAC00;&#xAE30;
+                        &lt;/Link&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;Switch&gt;
+                    &lt;Route exact path=&quot;/&quot; component={Main} /&gt;
+                    &lt;Route path=&quot;/sub&quot; component={Sub} /&gt;
+                    &lt;Route path=&quot;/users&quot; component={Users} /&gt;
+                    &lt;Route render={() =&gt; &lt;div&gt;404 NOT FOUND&lt;/div&gt;} /&gt;
+                &lt;/Switch&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default App;
+</code></pre>
+<p><strong>&#xB9C8;&#xC9C0;&#xB9C9;&#xC73C;&#xB85C; NavLink&#xB97C; &#xC0AC;&#xC6A9;&#xD574;&#xBCF4;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;.</strong></p>
+<p>Link&#xB300;&#xC2E0; NavLink&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xBA74; &#xC720;&#xC800;&#xAC00; &#xD574;&#xB2F9; Link&#xB97C; &#xD074;&#xB9AD;&#xD588;&#xC744; &#xB54C; &#xC2A4;&#xD0C0;&#xC77C;&#xB9C1;&#xC744; &#xCD94;&#xAC00;&#xD574;&#xC904; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Route, NavLink, Switch } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+<span class="hljs-keyword">import</span> Main <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Main&apos;</span>;
+<span class="hljs-keyword">import</span> Sub <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Sub&apos;</span>;
+<span class="hljs-keyword">import</span> Users <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Users&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;
+                        &lt;NavLink activeStyle={{ color: &apos;blue&apos; }} to=&quot;/&quot;&gt;
+                            &#xBA54;&#xC778;&#xD654;&#xBA74;&#xC73C;&#xB85C; &#xAC00;&#xAE30;
+                        &lt;/NavLink&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;NavLink activeStyle={{ color: &apos;blue&apos; }} to=&quot;/sub&quot;&gt;
+                            &#xC11C;&#xBE0C;&#xD654;&#xBA74;&#xC73C;&#xB85C; &#xAC00;&#xAE30;
+                        &lt;/NavLink&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;Switch&gt;
+                    &lt;Route exact path=&quot;/&quot; component={Main} /&gt;
+                    &lt;Route path=&quot;/sub&quot; component={Sub} /&gt;
+                    &lt;Route path=&quot;/users&quot; component={Users} /&gt;
+                    &lt;Route render={() =&gt; &lt;div&gt;404 NOT FOUND&lt;/div&gt;} /&gt;
+                &lt;/Switch&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default App;
+</code></pre>
+<p>&#xC774;&#xC678;&#xC5D0;&#xB3C4; history, redirect &#xB4F1; &#xAE30;&#xD0C0; &#xB0B4;&#xC6A9;&#xB4E4;&#xC774; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<p>history&#xB294; &#xB9D0;&#xADF8;&#xB300;&#xB85C; &#xC6F9; &#xBE0C;&#xB77C;&#xC6B0;&#xC800;&#xC758; History&#xAC1D;&#xCCB4;&#xB97C; &#xC870;&#xC791;&#xD560; &#xC218; &#xC788;&#xAC8C; &#xD574;&#xC90D;&#xB2C8;&#xB2E4;.</p>
+<p>&#xC608;&#xB97C;&#xB4E4;&#xC5B4; history.push &#xD639;&#xC740; history.goBack&#xB4F1;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xBA74; &#xC0AC;&#xC6A9;&#xC790;&#xAC00; &#xC5B4;&#xB5A4; &#xBC84;&#xD2BC;&#xC744; &#xD074;&#xB9AD;&#xD588;&#xC744; &#xB54C; &#xD2B9;&#xC815; url &#xC774;&#xB3D9;&#xD558;&#xAE30;, &#xB4A4;&#xB85C;&#xAC00;&#xAE30; &#xB4F1;&#xC744; &#xD560; &#xC218; &#xC788;&#xAC8C;&#xB418;&#xC8E0;.</p>
+<p>Redirect&#xC640;&#xC758; &#xCC28;&#xC774;&#xC810;&#xC740; &#xB9AC;&#xB2E4;&#xC774;&#xB809;&#xC158;&#xC740; &#xC911;&#xAC04;&#xC5D0; &#xAC70;&#xCCD0;&#xAC04; url&#xC774;&#xBBC0;&#xB85C; &#xD788;&#xC2A4;&#xD1A0;&#xB9AC; &#xAC1D;&#xCCB4;&#xC5D0; &#xBC29;&#xBB38; url&#xD754;&#xC801;&#xC774; &#xB0A8;&#xC9C0; &#xC54A;&#xAC8C;&#xB429;&#xB2C8;&#xB2E4;.</p>
+<p>(component (2)&#xB97C; &#xB77C;&#xC6B0;&#xD130;&#xB97C; &#xC0AC;&#xC6A9;&#xD55C; &#xBC84;&#xC804;&#xC73C;&#xB85C; &#xBC14;&#xAFD4;&#xBCF4;&#xBA74;&#xC11C; &#xC0AC;&#xC6A9;&#xD574;&#xBCFC;&#xAC8C;&#xC694;! )</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="20200623/component-2.html" class="navigation navigation-prev " aria-label="Previous page: component (2)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="20200623/component2-refactor.html" class="navigation navigation-next " aria-label="Next page: component(2) refactor">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"react router","level":"2.13","depth":1,"next":{"title":"component(2) refactor","level":"2.14","depth":1,"path":"20200623/component2-refactor.md","ref":"20200623/component2-refactor.md","articles":[]},"previous":{"title":"component (2)","level":"2.12","depth":1,"path":"20200623/component-2.md","ref":"20200623/component-2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"react-router.md","mtime":"2020-07-03T03:40:49.212Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-03T03:42:51.410Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
